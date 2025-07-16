@@ -21,3 +21,9 @@ void main() {
     printf("%d %c\n", ((char)&n + 2), ((char)&n + 2));
     printf("%d %c\n", ((char)&n + 3), ((char)&n + 3));
 }
+
+'''
+65 A
+66 B
+67 C
+68 D
