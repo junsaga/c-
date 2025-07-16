@@ -22,6 +22,7 @@ void main() {
     printf("%d %c\n", ((char)&n + 3), ((char)&n + 3));
 }
 ```
+```
 첫 줄: (char)&n → 0x41 → 65 ('A')
 
 두 번째 줄: ((char)&n + 1) → 0x42 → 66 ('B')
@@ -29,6 +30,7 @@ void main() {
 세 번째 줄: ((char)&n + 2) → 0x43 → 67 ('C')
 
 네 번째 줄: ((char)&n + 3) → 0x44 → 68 ('D')
+```
 
 ```
 결론
@@ -37,6 +39,7 @@ void main() {
 12ff7d	((char)&n + 1)	66 B
 12ff7e	((char)&n + 2)	67 C
 12ff7f	((char)&n + 3)	68 D
+```
 
 ```
 # 실행결과
